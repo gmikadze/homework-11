@@ -1,0 +1,132 @@
+body{
+    padding: 50px 140px;
+}
+header{
+    max-width: 1640px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin: auto;
+}
+.logo{
+    height: 95px;
+}
+.logo img{
+    height: 100%;
+}
+.navbar li{
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+.navbar li a{
+    text-decoration: none;
+    font-family: 'Archy EDT';
+    line-height: 27px;
+    font-size: 20px;
+    color: #707070;
+}
+.search{
+    height: 25px;
+}
+/* header end */
+.container-page{
+    max-width: 1640px;
+    margin: 60px auto;
+}
+.slider{
+    height: 613px;
+}
+.slider img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.pop h3{
+    margin-bottom: 70px;
+    font-family: 'Archy EDT';
+    font-size: 40px;
+    line-height: 53px;
+    color: #707070;
+}
+.popular{
+    max-width: 1640px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    margin-top: 30px;
+    max-width: 400px;
+    color: #707070;
+    box-shadow: lightgray 3px 3px 13px;
+}
+.box img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.photo-text{
+    padding: 0px 12px;
+}
+.box h4{
+    margin-bottom: 33px;
+    font-family: 'Archy EDT';
+    font-size: 30px;
+    line-height: 40px;
+}
+.box p{
+    font-family: 'Zapf Dingbats';
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+.more{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 13px 35px;
+    text-decoration: none;
+    color: #707070;
+    font-weight: bold;
+}
+.load{
+    text-align: center;
+    margin: 55px 0px;
+}
+.load a{
+    text-decoration: none;
+    color: #707070;
+}
+/* page end */
+footer{
+    background-color: #2E2E2E;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 50px 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #F2F2F2;
+    font-family: 'Archy EDT';
+    font-size: 13px;
+    line-height: 17px;
+}
+.foot-logo{
+    width: 120px;
+    height: 95px;
+    object-fit: contain;
+}
+.contact{
+    margin: 10px 0px;
+}
+.contact h6{
+    font-size: 20px;
+    line-height: 26px;
+}
+.social{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo unda pataravdebodes tu jobia statikuri iyos? */
