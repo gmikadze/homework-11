@@ -26,7 +26,7 @@ header{
     font-size: 20px;
     color: #707070;
 }
-.search{
+.search, .search img{
     height: 25px;
 }
 /* header end */
@@ -35,7 +35,8 @@ header{
     margin: 60px auto;
 }
 .slider{
-    height: 613px;
+    max-height: 613px;
+    margin-bottom: 140px;
 }
 .slider img{
     height: 100%;
@@ -105,7 +106,7 @@ footer{
     padding: 50px 140px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #F2F2F2;
     font-family: 'Archy EDT';
     font-size: 13px;
@@ -128,5 +129,36 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-
+@media (max-width:1080px){
+    .popular{
+        justify-content: center;
+    }
+}
+@media (max-width:1025px){
+    body{
+        padding: 17px 35px;
+    }
+    .container-page{
+        margin-top: 22px;
+    }
+    .slider{
+        margin-bottom: 90px;
+    }
+    .pop h3{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .popular{
+        justify-content: center;
+    }
+}
+@media (max-width:870px){
+    .hide{
+        visibility: hidden;
+    }
+    .box{
+        margin-top: 32px;
+        width: 100%;
+    }
+}
 /* logo unda pataravdebodes tu jobia statikuri iyos? */
